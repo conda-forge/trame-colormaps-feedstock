@@ -22,6 +22,7 @@ requirements:
     - python ${{ python_min }}.*
     - hatchling
     - pip
+    - vtk
   run:
     - python >=${{ python_min }}
     - numpy
