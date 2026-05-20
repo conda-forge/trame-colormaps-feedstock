@@ -22,13 +22,13 @@ requirements:
     - python ${{ python_min }}.*
     - hatchling
     - pip
-    - vtk
   run:
     - python >=${{ python_min }}
     - numpy
     - trame >=3
     - trame-dataclass >=2
     - trame-vuetify >=3.2
+    - vtk-base
 
 tests:
   - python:
