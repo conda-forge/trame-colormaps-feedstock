@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   python_min: "3.10"
-  version: "1.2.1"
+  version: "1.2.2"
 
 package:
   name: trame-colormaps
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/t/trame-colormaps/trame_colormaps-${{ version }}.tar.gz
-  sha256: 9a77725c815dc8c4c97731a13cef8b298cf924644934e57226fcf90e53b79cbc
+  sha256: a0c23db40681ce200791d27a376fb820b5baf886a2ced790734048a35e497c0b
 
 build:
   number: 0
